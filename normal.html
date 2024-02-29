@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <title>POKEMON</title>
+    <a href="index.html"><img class="logo" src="./img/logo.png" alt="un logo"></a>
+    <ul id="nav_bar">
+        <li><a  href="index.html" > HOME </a></li>
+        <li><a href="pokemon.html"> POKEMON </a></li>
+        <li><a href="Nous_contacter.html" > ABOUT </a></li>
+        <li><a href="Nous_contacter.html" > NEWS </a></li>
+        <li><a href="Nous_contacter.html" > CONTACT </a></li>
+    </ul>  
+</head>
+<body> 
+    <div class="menu-deroulant">
+        <button class="bouton-deroulant">TYPE</button>
+            <div class="contenu-sous">
+                <a id="Normal" onClick="pokemon_type(this)">Normal</a>
+                <a id="Plante" onClick="pokemon_type(this)">Plante</a>
+                <a id="Feu" onClick="pokemon_type(this)">Feu</a>
+                <a id="Eau" onClick="pokemon_type(this)">Eau</a>
+                <a id="Électrik" onClick="pokemon_type(this)">Électrik</a>
+                <a id="Glace" onClick="pokemon_type(this)">Glace</a>
+                <a id="Combat" onClick="pokemon_type(this)">Combat</a>
+                <a id="Poison" onClick="pokemon_type(this)">Poison</a>
+                <a id="Sol" onClick="pokemon_type(this)">Sol</a>
+                <a id="Vol" onClick="pokemon_type(this)">Vol</a>
+                <a id="Psy" onClick="pokemon_type(this)">Psy</a>
+                <a id="insecte" onClick="pokemon_type(this)">Insecte</a>
+                <a id="Roche" onClick="pokemon_type(this)">Roche</a>
+                <a id="Spectre" onClick="pokemon_type(this)">Spectre</a>
+                <a id="Dragon" onClick="pokemon_type(this)">Dragon</a>
+                <a id="Ténèbres" onClick="pokemon_type(this)">Ténèbres</a>
+                <a id="Acier" onClick="pokemon_type(this)">Acier</a>
+                <a id="Fée" onClick="pokemon_type(this)">Fée</a>
+            </div>
+        </div>
+        <div class="menu-deroulant">
+            <button class="bouton-deroulant">GENERATION</button>
+                <div class="contenu-sous">
+                    <a id="1" onClick="pokemon_gen(this)">1</a>
+                    <a id="2" onClick="pokemon_gen(this)">2</a>
+                    <a id="3" onClick="pokemon_gen(this)">3</a>
+                    <a id="4" onClick="pokemon_gen(this)">4</a>
+                    <a id="5" onClick="pokemon_gen(this)">5</a>
+                    <a id="6" onClick="pokemon_gen(this)">6</a>
+                    <a id="7" onClick="pokemon_gen(this)">7</a>
+                    <a id="8" onClick="pokemon_gen(this)">8</a>
+                    <a id="9" onClick="pokemon_gen(this)">9</a>
+                </div>
+            </div>
+    <input type="text" id="recherche" onkeyup="searchPokemon()">
+    <div id="grid_contenu"></div> 
+    <div id="grid_contenu2"></div> 
+</body> 
+    <script src="script.js"></script>
+</html>
