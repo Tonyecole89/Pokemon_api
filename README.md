@@ -8,6 +8,6 @@ On devait donc récupérer les informations de l'api, le stocker et renvoyer les
 
 La difficulté ici de récupérer les ressources de l'api et de le stocker localement afin de ne pas surcharger l'api. Il y a aussi le fait de devoir trier les informations en fonction de ce que l'utilisateur veut. J'ai donc pu apprendre à utiliser une API et de pouvoir trier les informations voulues. 
 
-Cela m'a permis d'apprendre à renforcer ma compréhension du HTML, CSS, du PHP et des bases de données SQL.
+Cela m'a permis d'apprendre à renforcer ma compréhension du JavaScript, HTML, CSS et des API.
 
 https://tonyecole89.github.io/Pokemon_api/
